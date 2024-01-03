@@ -1,0 +1,270 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+/* Variable */
+
+:root {
+    --color-primary: #333333;
+    --color-secondary: white;
+    --color-text-primary: #333333;
+    --color-text-secondary: white;
+    --boxshadow-card: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/* Fin Variable */
+
+
+body {
+    background-color: var(--color-primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Code container, colonne */
+
+.container {
+    width: 1500px;
+    margin: auto;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+.col-4 {
+    flex: 0 0 auto;
+    width: calc(((100% / 12) * 4));
+}
+.col-6 {
+    flex: 0 0 auto;
+    width: calc(((100% / 12) * 6));
+}
+.col-8 {
+    flex: 0 0 auto;
+    width: calc(((100% / 12) * 8));
+}
+
+/*  */
+
+
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(Assets/61891178-beau-paysage-de-montagn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Fin Header */
+
+/* Main */
+
+main {
+    width: 1500px;
+    margin: 400px auto auto auto;
+}
+
+/* Fin Main */
+
+
+
+/* Nav */
+
+nav {
+    background-color: rgba(77, 77, 77, 0.8);
+    height: 80px;
+    width: 500px;
+    margin: 15px 0 0 0;
+    border-radius: 30px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    color: var(--color-text-secondary);
+    font-size: 20px;
+}
+
+/* Fin Nav */
+
+
+/* Hero */
+
+#hero {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+#hero h1 {
+    color: var(--color-text-secondary);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#hero p {
+    color: var(--color-text-secondary);
+    font-size: 25px;
+}
+
+/* Fin Hero */
+
+
+/* Card-hero */
+
+#card-hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    transform: translate(0, 50%);
+}
+
+.card-body-hero {
+    border-radius: 20px;
+    background-color: var(--color-secondary);
+    box-shadow: var(--boxshadow-card);
+    height: 400px; /* a enlever*/
+    width: 350px; /* a enlever*/
+    padding: 10px;
+}
+
+/* Fin Card */
+
+/* Grille */
+
+
+#grille h2 {
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#grille p {
+    color: var(--color-text-secondary);
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.card-body-grille {
+    height: 400px;
+    padding: 5px;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: var(--color-secondary);
+
+}
+
+.c1 {
+    background-image: url(Assets/pexels-aviv-perets-11634900.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c2 {
+    background-image: url(Assets/pexels-dmitri-sotnikov-4263253.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c3 {
+    background-image: url(Assets/pexels-min-an-1437152.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.c4 {
+    background-image: url(Assets/pexels-valeriia-miller-18715770.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Fin Grille */
+
+/* Card-Row */
+
+#card-row {
+    margin: 200px 0;
+    
+}
+
+#card-row h2 {
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#card-row p {
+    color: var(--color-text-secondary);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-body-row {
+    height: 600px;
+}
+.card-body-row:nth-child(1) {
+    padding: 0 160px 0 0;
+}
+.card-body-row:nth-child(2) {
+    padding: 0 80px 0 80px;
+}
+.card-body-row:nth-child(3) {
+    padding: 0 0 0 160px;
+}
+
+.ro
+
+.c5 {
+    background-image: url(Assets/pexels-aviv-perets-11634900.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c6 {
+    background-image: url(Assets/pexels-min-an-1437152.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c7 {
+    background-image: url(Assets/pexels-valeriia-miller-18715770.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Fin Card-Row */
